@@ -1,0 +1,216 @@
+/*------------------------------------*/
+
+.mgm-container a{
+	text-decoration: none;
+	font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    /*color:#007eae;*/
+    color: rgb(51, 51, 51);
+}
+.mgm-container h3 {font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;}
+.mgm-container {
+	margin: auto;
+	width: 800px;
+}
+
+.mgm-container ul {
+	padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+	list-style: none;
+}
+
+nav {	
+	font-size: 0;
+	position: relative;
+    
+}
+
+nav > ul > li {
+	display: inline-block;
+  	font-size: 14px;
+  	padding: 0 15px;
+  	position: relative;
+}
+
+nav > ul > li > a {
+	color:#007eae;
+  	display: block;
+  	padding: 14px 0;
+  	border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+}
+nav > ul > li:hover > a {
+	color:#007eae;
+  	border-bottom: 3px solid #007eae;
+}
+
+.mgm-container .ms-Icon {
+    font-family: FabricMDL2Icons!important;
+    padding-top: 0px;
+    display: inline;
+    vertical-align: middle;
+    line-height: 11px;
+    padding-left: 4px;
+}
+
+.mega-menu {
+    background: white;
+    visibility: hidden; 
+    opacity: 0;
+    transition: visibility 0s,opacity .5s linear;
+    position: absolute;
+    /*left: 0;
+    width: 100%;*/
+    left: 25%;
+    width: 60%;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /*border: 1px solid #ececec;*/
+    box-shadow: 0px 0px 5px #ececec;
+    z-index: 99999;
+}
+/*.mega-menu h3 {color: #444;}*/
+
+.mega-menu .mgm-container {
+    display: flex;
+}
+.mega-menu .item {
+	flex-grow: 1;
+    margin: 0 5px;
+    text-align: left;    
+}
+
+.mega-menu .item a {
+    color:#007eae;
+}
+
+.mega-menu .item img {
+        border-radius: 30px;  
+        padding: 20px;
+       
+}
+.mega-menu a {
+	/*border-bottom: 1px solid #ddd;*/
+  	/*color: #4ea3d8;*/
+  	display: block;
+  	padding: 8px 0;
+}
+/*.mega-menu a:hover {color: #2d6a91;}*/
+
+
+.mgm-dropdown {position: static;}
+
+.mgm-dropdown:hover .mega-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+#SuiteNavPlaceHolder {background-color:white}
+
+.o365cs-base.o365cs-topnavBGColor-2,
+.o365cs-base .ms-bgc-tp, .o365cs-base .ms-bgc-tp-h:hover, .o365cs-base .ms-bgc-tp-f:focus, .o365cs-base.ms-bgc-tp {
+    background-color: white !important;
+}
+
+#SuiteNavPlaceHolder .owaimg, #SuiteNavPlaceHolder .o365cs-me-tile-nophoto-username,.o365cs-nav-centerAlign,.o365cs-topnavText  
+{
+	color:black!important;
+	
+}
+
+.o365button:hover {background-color: #ececec !important;}
+#O365_NavHeader
+/*#spfx-megamenu*/ {
+    border-bottom: 1px solid #ececec;
+}
+.navbar-link,.navbar-item,.o365cs-nav-centerAlign   {
+    color: rgb(51, 51, 51)!important;
+	}
+
+.navbar-link:not(.is-arrowless):after {
+    border-color: #000;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+.navbar-item a {
+padding: 14px;
+}
+.navbar-start {margin:auto}
+.o365cs-nav-brandingText {display:none!important}
+
+.ms-compositeHeader-headerAndNavContainer .ms-HorizontalNav {
+    /*margin: -39px 0 12px 244px;*/
+	/*	display:none;*/
+	padding-left: 16px;
+	margin-top: -8px;
+}
+
+/*.ms-siteHeader-siteName {font-size:18px}*/
+
+
+
+.ms-compositeHeader-actionsContainer {
+	    align-items: center;
+    -ms-flex-direction: column;
+	flex-direction: column-reverse;
+    
+}
+
+
+.ms-compositeHeader-siteAndActionsContainer{
+    flex-flow: row;
+	width: 100%;
+}
+
+.ms-compositeHeader-actionsContainer {
+    flex-direction: row-reverse;
+}
+
+.ms-searchux-searchbox, .ms-compositeHeader-addnCommands {
+	margin-top: -36px;
+	margin-right: 10px;
+}
+
+.ms-compositeHeader-siteAndActionsContainer{width:100%}
+.ms-compositeHeader-siteAndActionsContainer {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.logo {position: absolute;
+    left: -111px;
+    top: -15px;width:100px}
+	
+	.ms-compositeHeader-full {padding:0}
+
+.ms-siteLogoContainerOuter
+{margin-top: -13px;
+    margin-left: 15px;}
+	
+	.ms-siteHeader-siteInfo {
+	    margin-top: -7px;
+	}
+	
+	.ms-compositeHeader-actionsContainer {
+	align-items: center;
+	}
+	
+	.od-SearchBox-search{margin-top:2px}
+	
+		.ms-compositeHeader {
+     z-index: 0; 
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+.o365cs-nav-centerAlign nav {
+    clear: both;
+    background-color: #fff;
+}
+
